@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-dark-950 text-cream-100 font-sans;
+  }
+
+  ::selection {
+    @apply bg-chocolate-500/40 text-cream-50;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-dark-950;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-chocolate-700 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-chocolate-500;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply px-5 sm:px-8 md:px-12 lg:px-20 xl:px-32;
+  }
+
+  .glass-card {
+    @apply bg-white/[0.03] backdrop-blur-xl border border-white/[0.06] rounded-2xl;
+  }
+
+  .glass-card-hover {
+    @apply glass-card transition-all duration-500 hover:bg-white/[0.06] hover:border-chocolate-500/20 hover:shadow-xl hover:shadow-chocolate-900/10;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-chocolate-300 via-gold-400 to-chocolate-400;
+  }
+
+  .text-gradient-light {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-cream-100 via-cream-200 to-cream-300;
+  }
+
+  .btn-primary {
+    @apply relative inline-flex items-center justify-center gap-2 px-8 py-4 text-sm font-semibold tracking-wider uppercase
+           bg-gradient-to-r from-chocolate-600 to-chocolate-700 text-cream-50 rounded-full
+           transition-all duration-300 hover:from-chocolate-500 hover:to-chocolate-600
+           hover:shadow-lg hover:shadow-chocolate-700/30 active:scale-[0.98]
+           overflow-hidden;
+  }
+
+  .btn-outline {
+    @apply relative inline-flex items-center justify-center gap-2 px-8 py-4 text-sm font-semibold tracking-wider uppercase
+           border border-chocolate-500/40 text-chocolate-300 rounded-full
+           transition-all duration-300 hover:bg-chocolate-500/10 hover:border-chocolate-400/60
+           hover:text-chocolate-200 active:scale-[0.98];
+  }
+
+  .divider-gradient {
+    @apply h-px bg-gradient-to-r from-transparent via-chocolate-500/30 to-transparent;
+  }
+}
+
+@layer utilities {
+  .mask-fade-b {
+    mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+  }
+
+  .noise-bg {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    opacity: 0.03;
+  }
+}
