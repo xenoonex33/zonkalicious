@@ -29,7 +29,7 @@ export default function Contact() {
           <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-chocolate-400 mb-4">
             Get in Touch
           </span>
-          <h2 className="font-serif text-4xl sm:text-5xl md:text-6xl font-bold text-cream-50 mb-6">
+          <h2 className="font-display text-4xl sm:text-5xl md:text-6xl font-extrabold text-cream-50 mb-6">
             We&rsquo;d Love to{" "}
             <span className="text-gradient">Hear From You</span>
           </h2>

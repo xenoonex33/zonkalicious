@@ -56,7 +56,7 @@ export default function Navbar() {
                   priority
                 />
               </div>
-              <span className="font-serif text-2xl md:text-3xl font-bold tracking-tight">
+              <span className="font-display text-2xl md:text-3xl font-bold tracking-tight">
                 <span className="text-gradient">Zonka</span>
                 <span className="text-cream-200 group-hover:text-cream-50 transition-colors duration-300">
                   licious
@@ -144,7 +144,7 @@ export default function Navbar() {
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: 20 }}
                   transition={{ delay: i * 0.1 + 0.1, duration: 0.4 }}
-                  className="text-4xl font-serif font-bold text-cream-100 hover:text-gradient transition-all duration-300 py-3"
+                  className="text-4xl font-display font-bold text-cream-100 hover:text-gradient transition-all duration-300 py-3"
                 >
                   {link.label}
                 </motion.a>

@@ -43,7 +43,7 @@ export default function About() {
           <span className="inline-block text-xs font-semibold tracking-[0.3em] uppercase text-chocolate-400 mb-4">
             Our Story
           </span>
-          <h2 className="font-serif text-4xl sm:text-5xl md:text-6xl font-bold text-cream-50 mb-6">
+          <h2 className="font-display text-4xl sm:text-5xl md:text-6xl font-extrabold text-cream-50 mb-6">
             Where Chocolate Meets
             <br />
             <span className="text-gradient">Curiosity</span>
@@ -55,7 +55,7 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-20">
           <AnimatedSection delay={0.1}>
             <div className="space-y-6">
-              <p className="text-lg md:text-xl text-cream-200/80 leading-relaxed font-light">
+              <p className="text-lg md:text-xl text-cream-200/80 leading-relaxed font-serif">
                 Zonkalicious is a gourmet, artisanal chocolate company based in
                 Denver, Colorado. After a lifetime of research into the world of
                 mycology, our founder decided to bring two greatest loves to life

@@ -529,11 +529,11 @@ export default function Merch() {
                 Official Merch Drop
               </span>
             </span>
-            <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl font-bold text-cream-50 mb-4">
+            <h1 className="font-display text-5xl sm:text-6xl md:text-7xl font-extrabold text-cream-50 mb-4">
               Wear the{" "}
               <span className="text-gradient">Vibe</span>
             </h1>
-            <p className="max-w-xl mx-auto text-base sm:text-lg text-cream-200/50 leading-relaxed mb-8 font-light">
+            <p className="max-w-xl mx-auto text-base sm:text-lg text-cream-200/50 leading-relaxed mb-8 font-serif">
               Premium apparel crafted with the same obsession for quality that
               goes into every Zonkalicious bar. Limited runs. No corners cut.
             </p>

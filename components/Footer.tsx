@@ -24,7 +24,7 @@ export default function Footer() {
                   style={{ filter: "invert(1)" }}
                 />
               </div>
-              <span className="font-serif text-2xl font-bold">
+              <span className="font-display text-2xl font-bold">
                 <span className="text-gradient">Zonka</span>
                 <span className="text-cream-200">licious</span>
               </span>

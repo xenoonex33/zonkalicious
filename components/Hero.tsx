@@ -88,7 +88,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5, duration: 0.8 }}
-          className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-[1.15] tracking-tight mb-6"
+          className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold leading-[1.1] tracking-tight mb-6"
         >
           <span className="block text-cream-50">Indulge in</span>
           <span className="block text-gradient mt-1 py-1">Joyful Fusions</span>
@@ -99,7 +99,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.7, duration: 0.7 }}
-          className="max-w-xl mx-auto text-base sm:text-lg text-cream-200/60 leading-relaxed mb-10 font-light"
+          className="max-w-xl mx-auto text-base sm:text-lg text-cream-200/60 leading-relaxed mb-10 font-serif"
         >
           Gourmet artisanal mushroom-infused chocolates where no corners are cut.
           Crafted with reverence. Designed to delight.

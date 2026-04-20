@@ -62,7 +62,8 @@ const config: Config = {
         },
       },
       fontFamily: {
-        serif: ["'Playfair Display'", "Georgia", "serif"],
+        display: ["'Syne'", "system-ui", "sans-serif"],
+        serif: ["'Alice'", "Georgia", "serif"],
         sans: ["'Inter'", "system-ui", "sans-serif"],
       },
       animation: {
