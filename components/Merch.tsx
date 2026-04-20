@@ -529,7 +529,7 @@ export default function Merch() {
                 Official Merch Drop
               </span>
             </span>
-            <h1 className="font-display text-5xl sm:text-6xl md:text-7xl font-extrabold text-cream-50 mb-4">
+            <h1 className="font-display text-5xl sm:text-6xl md:text-7xl font-extrabold leading-[1.2] text-cream-50 mb-4">
               Wear the{" "}
               <span className="text-gradient">Vibe</span>
             </h1>

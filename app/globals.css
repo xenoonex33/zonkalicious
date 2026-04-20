@@ -51,6 +51,7 @@
 
   .text-gradient {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-chocolate-300 via-gold-400 to-chocolate-400;
+    padding-bottom: 0.1em;
   }
 
   .text-gradient-light {
